@@ -1,0 +1,22 @@
+.btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px; /* 27px */
+  background-color: #db2512;
+  padding: 11.5px 15px;
+  min-width: 198px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  &:hover {
+    background-color: #8f1103;
+    box-shadow: 1px 1px 3px #db2512;
+  }
+  &-footer {
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+}

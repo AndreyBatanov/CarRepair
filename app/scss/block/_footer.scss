@@ -1,0 +1,32 @@
+.footer {
+  &__box {
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__text {
+    letter-spacing: 0.15em;
+  }
+  &__social {
+    width: 120px;
+    display: inline-flex;
+    justify-content: center;
+    gap: 21px;
+    &-link {
+      i {
+        font-size: 18px;
+        background-color: #000;
+        color: #fff;
+        border-radius: 50%;
+        transition: all 0.2s ease;
+        &:hover {
+          color: #fff;
+          box-shadow: 1px 1px 2px #8f1103;
+          background-color: #8f1103;
+        }
+      }
+    }
+  }
+}
